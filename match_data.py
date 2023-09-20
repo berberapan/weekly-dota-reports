@@ -23,6 +23,7 @@ def fetch_match_data(matchid: int) -> dict:
 
 
 def create_csv(week: int):
+    """Creates a CSV file for storing the weekly match data."""
     with open(f'weekly_data/weekly_match_data/data_w{week}.csv', 'a', newline='') as file:
         fieldnames = ['match_id', 'league_id', 'winner', 'dire_team_id', 'radiant_team_id', 'duration', 'total_kills',
                       'kill_diff', 'first_blood', 'fb_time', 'total_towers', 'tower_diff', 'first_tower',
@@ -33,6 +34,7 @@ def create_csv(week: int):
 
 
 def append_file(week: int, match: dict) -> None:
+    """Appends match data to CSV file for a given week."""
     n_tower = 11
     n_rax = 6
     with open(f'weekly_data/weekly_match_data/data_w{week}.csv', 'a', newline='') as file:
