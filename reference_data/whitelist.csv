@@ -1,0 +1,30 @@
+n,name,league_id,region,online,lc
+0,DPC SEA div 2,15126,Southeast Asia,1,4
+1,DPC EU West div 2,15088,Western Europe,1,3
+2,DPC NA div 2,15087,North America,1,4
+3,DreamLeague,15196,Mix,1,2
+4,DPC SA div 2,15136,South America,1,4
+5,Berlin Major,15251,Mix,0,1
+6,DPC SEA div 1,15374,Southeast Asia,1,3
+7,DPC EU West div 1,15351,Western Europe,1,2
+8,DPC CN div 1,15383,China,1,2
+9,DPC NA div 1,15350,North America,1,3
+10,DPC SA div 1,15365,South America,1,3
+11,Malta Vibes,15286,Mix,1,3
+12,DreamLeague,15439,Mix,1,2
+13,DPC SEA div 2,15375,Southeast Asia,1,4
+14,DPC EU West div 2,15352,Western Europe,1,3
+15,DPC NA div 2,15353,North America,1,4
+16,DPC SA div 2,15366,South America,1,4
+17,DPC CN div 2,15384,China,1,4
+18,EPL World Series,14783,Mix,1,4
+19,Bali Major,15438,Mix,0,1
+20,Riyadh Masters,15475,Mix,0,1
+21,TI Quals CN,15689,China,1,4
+22,TI Quals NA,15690,North America,1,4
+23,TI Quals EEU,15691,Eastern Europe,1,4
+24,TI Quals SA,15692,South America,1,4
+25,TI Quals WEU,15693,Western Europe,1,4
+26,TI Quals SEA,15694,Southeast Asia,1,4
+27,Malta Vibes,15655,Europe,1,4
+28,DreamLeague,15739,Mix,1,2
