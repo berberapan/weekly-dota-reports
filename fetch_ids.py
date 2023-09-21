@@ -12,7 +12,7 @@ def get_tournament_ids() -> list:
 
 
 def get_time() -> int:
-    """Retrieves the date from one week prior and changes the time to 0:00 Great Britain time."""
+    """Retrieves the date from one week prior and changes the time to 0:00 Great Britain time and returns it as an int in unix format."""
     current_dt = datetime.now()
     adjusted_dt = current_dt.replace(hour=0, minute=0, second=0, tzinfo=ZoneInfo("GB")) - timedelta(weeks=1)
     unix_dt = int(adjusted_dt.timestamp())
