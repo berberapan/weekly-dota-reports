@@ -1,3 +1,4 @@
 # Ignoring all generated data files.
 
-/weekly_data/
+/weekly_data/**/*.txt
+/weekly_data/**/*.csv
